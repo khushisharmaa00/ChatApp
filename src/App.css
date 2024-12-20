@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  overflow-y: auto;
+  max-height: 70vh;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.app-footer {
+  text-align: center;
+  padding: 9px;
+  background-color: darkslategrey;
+  font-size: 16px;
+  /* font-weight: 500; */
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
