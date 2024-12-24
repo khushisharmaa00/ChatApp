@@ -4,9 +4,10 @@
   "private": true,
   "dependencies": {
     "antd": "^4.12.3",
-    "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.28.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
@@ -33,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "less": "^4.2.1",
+    "less-loader": "^12.2.0"
   }
 }
