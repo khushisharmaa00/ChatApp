@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { signOut } from "firebase/auth"; // Import signOut function
+import { signOut } from "firebase/auth";
 import Cookies from "js-cookie";
 import { auth } from "./firebase";
-import { notification } from "antd"; // Optional, to show a success message
+import { notification } from "antd";
 
 const Logout = () => {
   const navigate = useNavigate();
